@@ -7,6 +7,9 @@ const nextConfig = {
 		appDir: true,
 		mdxRs: true,
 	},
+	images: {
+		unoptimized: true
+	}
 };
 
 export default withContentlayer(nextConfig);
